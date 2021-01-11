@@ -14,7 +14,7 @@
     width: 1000px;
     height:700px;
     margin: 0 auto;
-    /* border: 1px solid black; */
+   
    
     display: grid;
 
@@ -26,7 +26,7 @@
 }
 
 .item{
-    /* border:1px solid green; */
+   
     background-position: center;
     background-size:cover;
 
@@ -59,18 +59,12 @@
    
     grid-column: 2/3;
     grid-row: 2/3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+
     animation-delay: 150ms;
  }
  
  .item:nth-of-type(6){
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+   
     animation-delay: 500ms;
  }
 
@@ -117,7 +111,7 @@
         width: 480px;
         height:1200px;
         margin: 0 auto;
-        border: 1px solid black;
+       
     
         display: grid;
     
